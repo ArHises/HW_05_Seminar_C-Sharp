@@ -30,8 +30,8 @@ void PrintScalingTable(double[,] hights, double k){
     {
         for (int j = 0; j < 2; j++)
         {
-            if (j == 0) Console.Write($"({hights[i,j] * k},");
-            else Console.Write($"{hights[i,j] * k}) ");
+            if (j == 0) Console.Write($"({hights[i,j] * k},"); // "( .. ,
+            else Console.Write($"{hights[i,j] * k}) "); // .. )"
         }
     }
 }
